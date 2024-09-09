@@ -1,0 +1,7 @@
+dstport,protocol,tag 
+110,tcp,email
+110,tcp,svp_1
+993,tcp,email
+993,tcp,svp_2 
+143,tcp,email
+142,tcp 
