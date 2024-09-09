@@ -32,14 +32,7 @@ The program generates two output files:
 
 - This program assumes that any protocol given in the `lookup.csv` and `flowlog.txt` has a valid protocol number and protocol name that are present in the [IANA Protocol Numbers List](https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml).
 - The following protocol numbers are not expected to be present in the `lookup.csv` and `flowlog.txt`, as they have no valid mappings:
-  - 146-252
-  - 253
-  - 254
-  - 114
-  - 99
-  - 68
-  - 63
-  - 61
+  - 61, 63, 68, 99, 114, 146-252, 253, 254
   
   If any of these protocol numbers are found in the input files, they will not be processed or counted.
 
